@@ -48,6 +48,7 @@ img{
     gap: 40px;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -63,6 +64,7 @@ img{
     border-radius: 8px;
     background-color: white;
     border:none;
+    cursor: pointer;
 }
 
 .btn2{
@@ -74,4 +76,5 @@ img{
     gap:8px;
     color:white;
     background-color: #8E2424;
+    cursor: pointer;
 }
