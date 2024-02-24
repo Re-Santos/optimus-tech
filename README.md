@@ -8,5 +8,9 @@ Segundo o modelo fornecido pelo figma:
 -  Criei estrutura inicial do cabeçalho (header) no HTML e estilos básicos no CSS.
 - Centralizei os elementos, adicionei a logo da empresa 'OptimusTech', links de navegação, e botões de entrada e cadastro.
 - Estilizei os botões com bordas arredondadas e cores adequadas. #7DaysOfCode"
-- 
+## Dia 2
+Segundo o modelo fornecido pelo figma:
+-  Incluí um parágrafo sobre a empresa.
+- Estilizei a seção com classes CSS correspondentes. #7DaysOfCode
+
 **Acompanhe meu progresso e participe do desafio! #7DaysOfCode**
