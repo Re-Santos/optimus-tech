@@ -1,3 +1,8 @@
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -77,4 +82,34 @@ img{
     color:white;
     background-color: #8E2424;
     cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 1rem; 
+}
+
+.sobre-nos {
+    color: var(--main-color);
+    width: 78px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.titulo {
+    
+    font-size: 2rem;
+   
+}
+
+.texto-section {
+    color:var(--text-color); 
+    text-align: center;
+    line-height: 30px;
+    max-width: 50%;
 }
