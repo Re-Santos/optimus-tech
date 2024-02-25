@@ -84,7 +84,7 @@ img{
     cursor: pointer;
 }
 
-section {
+.empresa {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,4 +112,45 @@ section {
     text-align: center;
     line-height: 30px;
     max-width: 50%;
+}
+
+.metricas-container {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 288px;
+    padding: 0px 0px 96px 0px;
+}
+
+.valores {
+    color: var(--main-color);
+    width: 280px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2%;    
+}
+
+.titulo-metrica {
+    width:280px;
+    height: 28px;
+    color: #101828;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 8px 0;
+}
+
+.texto-metrica {
+    width: 280px;
+    height: 72px;
+    margin: 36px, 0 0 0;
+    font-family: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:var(--text-color);
+    margin: 8px 0;
+    margin-right: 15px;
 }
