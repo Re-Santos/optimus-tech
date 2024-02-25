@@ -13,4 +13,10 @@ Segundo o modelo fornecido pelo figma:
 -  Incluí um parágrafo sobre a empresa.
 - Estilizei a seção com classes CSS correspondentes. #7DaysOfCode
 
+## Dia 3
+Segundo o modelo fornecido pelo figma:
+- Adicionei a seção de métricas ao HTML.
+- Incluí informações sobre projetos concluídos, colaboradores, downloads e reviews 5 estrelas. 
+- Estilizei a seção com classes CSS correspondentes. #7DaysOfCode"
+  
 **Acompanhe meu progresso e participe do desafio! #7DaysOfCode**
