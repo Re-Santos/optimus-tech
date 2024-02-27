@@ -21,8 +21,8 @@ Segundo o modelo fornecido pelo figma:
 
 ## Dia 4
 Segundo o modelo fornecido pelo figma:
--Incluí informações sobre vagas abertas. 
--Adicionei uma imagem representativa da equipe. 
--Estilizei a seção com classes CSS correspondentes. #7DaysOfCode"
+- Incluí informações sobre vagas abertas. 
+- Adicionei uma imagem representativa da equipe. 
+- Estilizei a seção com classes CSS correspondentes. #7DaysOfCode"
 
 **Acompanhe meu progresso e participe do desafio! #7DaysOfCode**
