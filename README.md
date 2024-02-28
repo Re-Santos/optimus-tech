@@ -25,4 +25,12 @@ Segundo o modelo fornecido pelo figma:
 - Adicionei uma imagem representativa da equipe. 
 - Estilizei a seção com classes CSS correspondentes. #7DaysOfCode"
 
+
+## Dia 5
+Segundo o modelo fornecido pelo figma:
+- Adicionei a seção vagas.
+- Incluí informações sobre oportunidades de emprego em áreas como Design e Desenvolvimento de Software. 
+- Cada vaga possui título, tipo de emprego (Full-time) e faixa salarial. 
+- Estilizei a seção com classes CSS correspondentes. #7DaysOfCode"
+
 **Acompanhe meu progresso e participe do desafio! #7DaysOfCode**
