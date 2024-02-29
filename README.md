@@ -4,6 +4,8 @@
 Repositório dedicado ao desafio #7DaysOfCode. Cada dia do desafio está organizado em uma branch.
 Foi fornecido o seguinte modelo do figma para ser seguido, divido em etapas por 7 dias.
 
+## Deploy:optimustech-renata.surge.sh
+
 ## Dia 1
 Segundo o modelo fornecido pelo figma:
 -  Criei estrutura inicial do cabeçalho (header) no HTML e estilos básicos no CSS.
