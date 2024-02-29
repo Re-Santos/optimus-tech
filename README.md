@@ -4,7 +4,7 @@
 Repositório dedicado ao desafio #7DaysOfCode. Cada dia do desafio está organizado em uma branch.
 Foi fornecido o seguinte modelo do figma para ser seguido, divido em etapas por 7 dias.
 
-## Deploy:
+## Deploy página estática:
 http://www.optimustech-renata.surge.sh
 
 ## Dia 1
