@@ -3,19 +3,16 @@
     --main-color: #8E2424;
     --border-cards: #EAECF0;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 header{
     width:100%;
     height:80px;
     margin-top: 15px;
 }
-
 .container{
     display:flex;
     align-items: center;
@@ -27,12 +24,10 @@ header{
     margin:  0 auto;
     padding:0px 32px 0px 32px;
 }
-
 img{
     width:27px;
     height: 26.99px;
 }
-
 .logo{
     display:flex;
     align-items: center;
@@ -42,11 +37,9 @@ img{
     line-height: 24px;
     color:#3A404E;
 }
-
 .logo p{
     margin-left: 8px;
 }
-
 .paginas{
     display: flex;
     width: 362px;
@@ -56,13 +49,11 @@ img{
     align-items: center;
     cursor: pointer;
 }
-
 .botoes{
      width: 207px;
      height: 44px;
      gap: 12px;
 }
-
 .btn1{
     width: 83px;
     height: 44px;
@@ -71,7 +62,6 @@ img{
     border:none;
     cursor: pointer;
 }
-
 .btn2{
     width: 112px;
     height: 44px;
@@ -83,7 +73,6 @@ img{
     background-color: #8E2424;
     cursor: pointer;
 }
-
 .empresa {
     display: flex;
     flex-direction: column;
@@ -91,7 +80,6 @@ img{
     padding: 7rem 0;
     gap: 1rem; 
 }
-
 .sobre-nos {
     color: var(--main-color);
     width: 78px;
@@ -99,19 +87,15 @@ img{
     font-size: 16px;
     line-height: 24px;
 }
-
-
 .titulo {
     font-size: 2rem;
 }
-
 .texto-section {
     color:var(--text-color); 
     text-align: center;
     line-height: 30px;
     max-width: 50%;
 }
-
 .metricas-container {
     background-color: #FFFFFF;
     display: flex;
@@ -120,8 +104,8 @@ img{
     flex-wrap: wrap;
     height: 288px;
     padding: 0px 0px 96px 0px;
+    margin-bottom: -10%;
 }
-
 .valores {
     color: var(--main-color);
     width: 280px;
@@ -130,7 +114,6 @@ img{
     line-height: 72px;
     letter-spacing: -2%;    
 }
-
 .titulo-metrica {
     width:280px;
     height: 28px;
@@ -140,7 +123,6 @@ img{
     line-height: 28px;
     margin: 8px 0;
 }
-
 .texto-metrica {
     width: 280px;
     height: 72px;
@@ -171,11 +153,12 @@ img{
 .texto-talentos img{
     width: 1216px; 
     height: 400px; 
+    margin-bottom: -30%;
    
 }
 .vagas-abertas{
     width: 125px;
-    height: 28px;
+    height: 48px;
     color: var(--main-color);
     font-size: 14px;
     line-height: 20px;
@@ -185,47 +168,40 @@ img{
     line-height: 30px;
     color: #667085;
 }
-
 .vagas-abertas {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     gap: 1.5rem;
-    padding: 6rem 0;
     font-family: "Inter", sans-serif;
-  }
- 
-  .vagas{
+}
+.vagas{
     margin: 0 auto;
     width: 50%;
     display: flex;
     flex-direction: column;
 }
-
 .area {
     margin-bottom: 1rem;
 }
-.area__titulo {
+.area-nome {
     font-size: 20px;
     margin-bottom: 2rem;
 }
-
 .vaga {
     padding: 24px;
     border: 1px solid var(--border-cards);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
     margin-bottom: 1.5rem;
 }
-
-.vaga__titulo {
+.vaga-nome {
     font-size: 18px;
 }
-
-.vaga__informacao {
+.vaga-informacao {
     color: var(--text-color);
 }
 .depoimento {
@@ -236,34 +212,91 @@ img{
     margin: 8rem auto;
     background-color: rgba(195, 25, 25, 0.05);
     padding: 3rem 2rem;
-  }
-  
-  .depoimento span {
+}
+.depoimento span {
     color: var(--main-color);
     font-weight: 500;
     text-align: center;
-  }
-  
-  .depoimento img {
+}
+.depoimento img {
     width: 56px;
     height: 56px;
-  }
-  
-  .depoimento h2 {
+}
+.depoimento h2 {
     color: var(--title-color);
     font-weight: 500;
     text-align: center;
     max-width: 70%;
     margin: 2rem 0;
-  }
-  
-  .depoimento span.nome {
+}
+.depoimento span.nome {
     color: var(--title-color);
     margin: 0.5rem 0;
     font-weight: 400;
-  }
-  
-  .depoimento span.cargo {
+}
+.depoimento span.cargo {
     color: var(--text-color);
     font-weight: 400;
-  }
+}
+footer {
+    align-items: center;
+    background: #F9FAFB;
+    display: flex;
+    padding: 6rem 5%;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.footer-container .footer-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+.footer-container .footer-texto h2 {
+    color: #101828;
+    font-size: 1.50rem;
+    font-weight: 600;
+    line-height: 122.222%;
+    letter-spacing: -0.72px;
+}
+.footer-container .footer-texto span {
+    color: #667085;
+    font-size: 16px;
+    line-height: 150%
+}
+form {
+    display: flex;
+    gap:1rem;
+}
+.footer-container form input, button {
+    font-size: 16px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    line-height: 150%;
+}
+.footer-container form input {
+    color: #667085;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    padding: 12px 14px 12px 16px;
+}
+.footer-container form button {
+    display: flex;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    padding: 12px 20px;
+}
+.reservado {
+    color: #98A2B3;   
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
