@@ -1,3 +1,4 @@
+
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
@@ -8,6 +9,11 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
+
 header{
     width:100%;
     height:80px;
@@ -19,7 +25,6 @@ header{
     height:80px;
     width:100%;
     max-width: 1280px;
-    height:44px;
     justify-content: space-between;
     margin:  0 auto;
     padding:0px 32px 0px 32px;
@@ -89,12 +94,18 @@ img{
 }
 .titulo {
     font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 .texto-section {
     color:var(--text-color); 
     text-align: center;
     line-height: 30px;
-    max-width: 50%;
+    max-width: 90%;
+    padding: 0 16px;
+    box-sizing: border-box;
 }
 .metricas-container {
     background-color: #FFFFFF;
@@ -154,7 +165,6 @@ img{
     width: 1216px; 
     height: 400px; 
     margin-bottom: -30%;
-   
 }
 .vagas-abertas{
     width: 125px;
@@ -301,3 +311,92 @@ form {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 16px;
+    }
+
+    .paginas {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .botoes {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        margin-top: 25%;
+    }
+
+    .empresa {
+        padding: 3rem 0;
+        width: 100%;
+    }
+
+    .empresa .sobre-nos {
+        margin-top: 25%;
+    }
+    .empresa .titulo,
+    .empresa .texto-section {
+        max-width: 60%;
+        width: 100%;
+        overflow-wrap: break-word;
+        box-sizing: border-box;
+        margin-right: 10%;
+        padding: 0 16px;
+    }
+    
+    .talentos {
+        margin-left: -2%;
+    }
+    .texto-talentos .vagas-abertas {
+        margin-top: 130%;
+    }
+
+    .texto-talentos {
+        width: 90%;
+        padding: 0 16px;
+        margin-top: 100%;
+    }
+
+    .texto-talentos img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .vagas {
+        width: 60%;
+        margin-top: -30%;
+    }
+
+   
+    .depoimento h2 {
+        max-width: 100%;
+    }
+
+    footer{
+        width: 100%;
+        margin-right: -15%;
+    }
+
+    .footer-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .reservado {
+        width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
+    }
+}
