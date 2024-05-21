@@ -316,32 +316,27 @@ form {
     body {
         overflow-x: hidden;
     }
-
     .container {
         flex-direction: column;
         align-items: flex-start;
         padding: 0 16px;
     }
-
     .paginas {
         flex-direction: column;
         gap: 10px;
         width: 100%;
         text-align: left;
     }
-
     .botoes {
         flex-direction: column;
         width: 100%;
         gap: 10px;
         margin-top: 25%;
     }
-
     .empresa {
         padding: 3rem 0;
         width: 100%;
     }
-
     .empresa .sobre-nos {
         margin-top: 25%;
     }
@@ -354,46 +349,36 @@ form {
         margin-right: 10%;
         padding: 0 16px;
     }
-    
     .talentos {
         margin-left: -2%;
+        margin-top: 160%;
     }
-    .texto-talentos .vagas-abertas {
-        margin-top: 130%;
-    }
-
+   
     .texto-talentos {
         width: 90%;
         padding: 0 16px;
-        margin-top: 100%;
+        margin-top: 180%;
     }
-
     .texto-talentos img {
         width: 100%;
         height: auto;
         margin-bottom: 0;
     }
-
     .vagas {
         width: 60%;
-        margin-top: -30%;
+        margin-top: -70%;
     }
-
-   
     .depoimento h2 {
         max-width: 100%;
     }
-
     footer{
         width: 100%;
         margin-right: -15%;
     }
-
     .footer-container {
         width: 100%;
         box-sizing: border-box;
     }
-
     .reservado {
         width: 100%;
         padding: 0 16px;
